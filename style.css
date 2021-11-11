@@ -11,7 +11,6 @@ header div{
     align-items: center;
 }
 .logo{
-   
     height: 70px;
     margin-left: 10px;
 
@@ -44,7 +43,7 @@ header div{
     font-size: 40px;
 }
 
-div h1{
+.row1 .col1 h1{
     color:white;
     text-align:left;
     margin-left: 30PX;
@@ -126,10 +125,43 @@ align-items:flex-start;}
     height: 350px;
 }
 
+.FormRow{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e0dcec;
+    gap: 30px;
+}
+.Formcol2{
+    background-color: #00a69c;
+    width: 40rem;
+}
+.InlineBox{
+    display: inline-block;
+}
+
+.InlineBox input{
+display: block;
+width:15rem;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin: .5rem;
+
+}
+.FormGroup input{
+    width: 33rem;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: .5rem;
+
+}
+
+
     
 
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 586px) {
     .logo {
     height: 28px;
     }
@@ -159,7 +191,6 @@ align-items:flex-start;}
         margin-top: 10px;
         margin-left: 0;
     }
-   
     .row3{
         flex-direction: column;
         justify-content: space-between;
@@ -206,8 +237,44 @@ align-items:flex-start;}
         flex-wrap: wrap-reverse;
     }
 
+.FormRow{
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-items: center;
+    margin-top: .8rem;
 
+}
 
+.Formcol2{
+    width: 16rem;
+}
+.InlineBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InlineBox input{
+
+    display: block;
+    width: 20rem;    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: .4rem;
+    
+    }
+    .FormGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .FormGroup input{
+    width: 20rem;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: .3rem;
+    
+    }
     }
 
     
