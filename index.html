@@ -6,36 +6,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
   <link rel="stylesheet" href="style.css"> 
+  <script src="https://kit.fontawesome.com/816f353cd9.js" crossorigin="anonymous"></script>
+
   <title>Develop</title>
 </head>
 
 <body>
   <header>
-    <div class="container"> 
-    <img class="logo"src="img/colored logo.png" alt="developer logo">
     <nav>
-    <ul>
-      <li class="nav"><strong>Home</strong></li>
-      <li class="nav"><strong>About Us</strong></li>
-      <li class="nav"><strong>Contact Us</strong></li>
-    </ul>
-  </nav>
-  </div>
+      <div class="container"> 
+        <img class="logo"src="img/colored logo.png" alt="developer logo">
+        
+        <ul>
+          <li class="nav"><strong>Home</strong></li>
+          <li class="nav"><strong>About Us</strong></li>
+          <li class="nav"><strong>Contact Us</strong></li>
+        </ul>
+      
+      </div>
+    </nav>
+    
+
+
+    <div class="row1">
+      <div class="col1">
+        <h1>One more for good measure</h1>
+        <p>some representive placeholder content for the third slide of this carousel</p>
+        <button class="more" type="button"><strong>More</strong></button>
+      </div>
+      <div class="col2">
+        <img id="developer"src="img/Development.png" alt="developer" height="200px">
+      </div>
+    </div>
   </header>
-  <div class="row1">
-  <div class="col1">
-    <h1>One more for good measure</h1>
-    <p>some representive placeholder content for the third slide of this carousel</p>
-    <button class="more" type="button"><strong>More</strong></button>
-  </div>
-  <div class="col2">
-  <img id="developer"src="img/Development.png" alt="developer" height="200px">
-  </div>
-  </div>
+
+  <section>
   <div >
     <h1 class="row2"><strong>Our Professional Services</strong></h1>
   </div>
+  </section>
  
+  <section>
   <div class="row3">
     <div class="card">
       <div class="yellow"><img class="serviceImg" src="img/UX.png" alt="UX/UI design"></div>
@@ -53,64 +64,61 @@
     </div>
 
   </div>
-
+  </section>
   
+  <section>
     <div class="SoftwareRow">
       <img class="SoftwareImg" src="img/4.png" alt="Get Started With Our Software">
       <div class="innerText">
-      <h2>Get Started With Our Software</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-      </ul>
+        <h2>Get Started With Our Software</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+        </ul>
       </div>
-
-      
     </div>
 
 
     <div class="SoftwareRow1">
       <div class="innerText">
-      <h2>Get Started With Our Software</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-      </ul>
+        <h2>Get Started With Our Software</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+        </ul>
       </div>
       <img class="SoftwareImg" src="img/1.png" alt="Get Started With Our Software">
-
-      
     </div>
+
     <div class="SoftwareRow">
       <img class="SoftwareImg" src="img/2.png" alt="Get Started With Our Software">
-
       <div class="innerText">
-      <h2>Get Started With Our Software</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <ul>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-      </ul>
+        <h2>Get Started With Our Software</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+        </ul>
       </div>
-
-      
     </div>
-
+  </section>
+  <section>
     <div class="FormRow">
       <div class="Formcol1">
         <h1>Get in touch with us</h1>
       </div>
       <div class="Formcol2">
         <p>We will replay to you as soon as possible.</p>
-        <hr>
+        
         <form action="index.html">
           <div class="InlineBox">
             <input type="text" name="FullName" id="FullName" placeholder="Full Name">
@@ -124,9 +132,52 @@
           <div class="FormGroup">
             <input type="text" name="Subject" id="Subject" placeholder="Subject">
           </div>
+          <div class="FormGroup">
+            <textarea name="Messang" id="Messang" cols="30" rows="10" placeholder="Messang"></textarea>
+          </div>
+          <div class="submit FormGroup">
+            <button type="button">Submit</button>
+          </div>
 
         </form>
       </div>
+  </section>
+
+  <footer>
+    <div class="FooterContent">
+      <div>
+        <img src="img/center colored logo.png" alt="the logo">
+      </div>
+      <div class="WebsitePages">
+        <h1>Website Pages:</h1>
+        <ul>
+          <li><strong>HOME</strong></li>
+          <li><strong>ABOUT US</strong></li>
+          <li><strong>CONTACT US</strong></li>        
+        </ul>
+      </div>
+      <div class="Terms">
+        <h1>Our Terms:</h1>
+        <ul>
+          <li><a href="#"><strong>FAQ</strong></a></li>
+          <li><a href="#"><strong>TERMS & CONDITIONS</strong></a></li>
+        </ul>
+      </div>
+      <div class="Contact">
+        <h1>Finds Us On:</h1>
+        <div class="ContactList">
+          <i class="fab fa-twitter-square" ></i> 
+          <i class="fab fa-instagram-square"></i>
+          <i class="fab fa-facebook-square"></i>
+        </div>
+
+      </div>
+    </div>
+    <div class="FooterBottom">
+      <p> Copyright &copy; 2021 <span>Develop</span> All Right Reserved</p>
+    </div>
+  </footer>
+    
   
 </body>
 </html>
